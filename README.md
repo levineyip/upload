@@ -1,11 +1,13 @@
 upload - 上传文件，并发布Library到Jitpack
 ====
 
-#第一步：在github创建一个名为” upload”的repository；  
+第一步：在github创建一个名为” upload”的repository；  
 -------
 ![Image text](https://github.com/levineyip/upload/blob/master/images/image1.png)  
+
 第二步：git clone XXX将远程仓库拉到本地； 
 -------
+
 第三步：以upload为根目录创建一个Android工程，结构如下图；  
 -------
 P.S. 因为是library库，需将module对应的build.gradle稍微修改。①将apply plugin: 'com.android.application'改为apply plugin'com.android.library';
